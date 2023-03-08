@@ -60,7 +60,7 @@ element { rule @1 } */
   }
   .content .main-text {
     position: relative;
-    z-index: -2;
+    z-index: 2;
     margin-bottom: 50px;
   }
   .content .main-text a {
@@ -100,7 +100,7 @@ element { rule @1 } */
   }
   .content .social {
     position: relative;
-    z-index: -2;
+    z-index: 2;
     padding-bottom: 40px;
   }
   .content .social a {
@@ -149,14 +149,15 @@ element { rule @1 } */
   }
   /* main header rules */
   header {
-    background-color: red;
+    background-color: black;
     text-align: center;
     position: sticky;
+    z-index: 3;
     top: 0;
   }
   
   #alice-logo {
-    width: 300px;
+    width: 700px;
     padding: 10px 0;
   }
   /* main rules */
@@ -186,7 +187,6 @@ element { rule @1 } */
     position: relative;
     color: white;
     padding: 12px 8px;
-    z-index: 500;
   }
   
   .characters li a {
