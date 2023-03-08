@@ -1,5 +1,3 @@
-# Le_h_Alice_in_Borderland
-Play or Die
 # Project Name
 Week 4 Class Build
 
